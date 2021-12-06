@@ -1,0 +1,53 @@
+:root {
+  font-size: 18px;
+  --white10: white;
+  --black: black;
+  --gray10: #3A3539;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--white10);
+    margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 40px;
+  margin-block-start: 20px;
+  margin-block-end: 16px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-block: 40px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-block: 16px;
+}  
+
+.hero {
+  /*background-image: linear-gradient(to top, rgba(255,255,255, .3), transparent), url(../images/HDGLogo.png);*/
+  background-image: linear-gradient(60.00deg, #50B31B 30.63%, #26A0DA 80%); 
+  block-size: 100px;
+}
+
+
+.main-content {
+  padding-inline: 16px;
+}
+
+.section-content a {
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+.section-content a :hover {
+  color: var(--black);
+}
